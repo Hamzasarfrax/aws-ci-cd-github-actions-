@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamza Sarfraz | Cloud Security Engineer</title>
+  <link rel="stylesheet" href="/assets/cs/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo">HS</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I'm <span class="highlight">Hamza Sarfraz</span></h1>
+        <p class="hero-subtitle">Cloud Security Engineer | AWS IAM | Secure Cloud Architecture</p>
+        <p class="hero-description">
+          I design and secure AWS environments using <strong>least-privilege IAM</strong>, <strong>secure CDN & storage</strong>,
+          <strong>centralized logging</strong>, and <strong>continuous compliance monitoring</strong>. My focus is on
+          reducing blast radius, preventing misconfigurations, and building production-ready security controls.
+        </p>
+        <a href="#projects" class="btn">View Security Projects</a>
+      </div>
+      <div class="hero-image">
+        <div class="image-placeholder"><i class="fas fa-user-shield"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a Cloud Security Engineer with hands-on experience securing AWS workloads. I apply
+            <strong>Zero Trust principles</strong>, <strong>least privilege access</strong>, and
+            <strong>defense-in-depth</strong> to design secure cloud architectures.
+          </p>
+          <p>
+            My work includes IAM hardening, CloudFront + S3 secure CDN design using OAC, CloudTrail and
+            CloudWatch logging, AWS Config compliance rules, and encryption with AWS KMS. I document labs
+            on GitHub and share security breakdowns on LinkedIn.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat"><h3>5+</h3><p>Security Labs</p></div>
+          <div class="stat"><h3>1+</h3><p>Years AWS Practice</p></div>
+          <div class="stat"><h3>100%</h3><p>Hands-on Security</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Security Skills & Tools</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-header"><i class="fab fa-aws"></i><h3>AWS Core</h3></div>
+          <p>EC2, S3, VPC, Lambda, CloudFront, Route 53</p>
+        </div>
+        <div class="skill">
+          <div class="skill-header"><i class="fas fa-user-lock"></i><h3>IAM & Identity</h3></div>
+          <p>Users, Groups, Roles, Least Privilege Policies, MFA, Access Analyzer, Policy Simulator</p>
+        </div>
+        <div class="skill">
+          <div class="skill-header"><i class="fas fa-shield-alt"></i><h3>Monitoring & Compliance</h3></div>
+          <p>CloudTrail, CloudWatch Logs & Alarms, AWS Config (Managed Rules)</p>
+        </div>
+        <div class="skill">
+          <div class="skill-header"><i class="fas fa-lock"></i><h3>Encryption & Data Protection</h3></div>
+          <p>AWS KMS, Encryption at Rest & In Transit, TLS Enforcement</p>
+        </div>
+        <div class="skill">
+          <div class="skill-header"><i class="fas fa-network-wired"></i><h3>Edge & CDN Security</h3></div>
+          <p>CloudFront Distributions, Origin Access Control (OAC), AWS WAF (conceptual)</p>
+        </div>
+        <div class="skill">
+          <div class="skill-header"><i class="fas fa-tools"></i><h3>Tools</h3></div>
+          <p>AWS Console & CLI, CloudFormation (YAML basics), Git & GitHub, Linux (basics)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Security Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image"><i class="fas fa-key"></i></div>
+          <div class="project-info">
+            <h3>IAM Least Privilege Security Lab</h3>
+            <p>
+              Designed users, groups, and roles with least privilege, explicit deny conditions, and MFA.
+              Validated permissions using IAM Policy Simulator and Access Analyzer.
+            </p>
+            <div class="project-tags"><span>AWS IAM</span><span>MFA</span><span>Access Analyzer</span></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image"><i class="fas fa-cloud"></i></div>
+          <div class="project-info">
+            <h3>Secure CloudFront + S3 CDN</h3>
+            <p>
+              Built a secure static website using CloudFront with S3 origin. Implemented Origin Access
+              Control (OAC), blocked public S3 access, and enforced HTTPS.
+            </p>
+            <div class="project-tags"><span>CloudFront</span><span>S3</span><span>OAC</span></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image"><i class="fas fa-clipboard-check"></i></div>
+          <div class="project-info">
+            <h3>AWS Config Compliance Monitoring</h3>
+            <p>
+              Implemented AWS Config rules to detect public S3 buckets, missing encryption, and
+              non-compliant resources with continuous monitoring.
+            </p>
+            <div class="project-tags"><span>AWS Config</span><span>Compliance</span></div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image"><i class="fas fa-bolt"></i></div>
+          <div class="project-info">
+            <h3>Lambda Security & Monitoring</h3>
+            <p>
+              Secured Lambda functions with least-privilege execution roles, CloudWatch logging, and
+              KMS encryption for sensitive data.
+            </p>
+            <div class="project-tags"><span>Lambda</span><span>CloudWatch</span><span>KMS</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item"><i class="fas fa-envelope"></i><div><h3>Email</h3><p>hamzasarfraz862@email.com</p></div></div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h3>Location</h3><p>Pakistan (Remote Ready)</p></div></div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Hamza Sarfraz. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/your-username"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/your-profile"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
